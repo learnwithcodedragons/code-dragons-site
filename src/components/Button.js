@@ -6,21 +6,23 @@ const sizes = {
   xl: `py-5 px-16 text-lg`
 };
 
-const Button = ({ children, className = '', size }) => {
+const Button = ({ children, className = '', size, href, buttonColor }) => {
+  console.log(href)
   return (
-    <button
-      type="button"
+    <a
+      href={href}
       className={`
         ${sizes[size] || sizes.default}
         ${className}
-        bg-primary
+        ${buttonColor || 'bg-primary'}
         hover:bg-primary-darker
         rounded
         text-white
+        mr-4
     `}
     >
       {children}
-    </button>
+    </a>
   );
 };
 
