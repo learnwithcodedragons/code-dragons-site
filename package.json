@@ -9,11 +9,13 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "dependencies": {
     "gatsby": "^4.0.0",
     "gatsby-plugin-emotion": "^7.0.0",
+    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-theme-codebushi": "^1.0.0",
     "postcss": "^8.3.8",
     "react": "^17.0.1",

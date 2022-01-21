@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     extend: {
@@ -8,7 +10,11 @@ module.exports = {
           darker: 'hsl(60, 90%, 16%)'
         }
       }
-    }
+    },
+    screens: {
+      'xs': '386px',
+      ...defaultTheme.screens,
+    },
   },
   variants: {},
   plugins: []

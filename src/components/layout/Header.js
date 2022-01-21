@@ -14,21 +14,22 @@ const Header = () => (
         CodeDragons
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#content">
+          Content
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#promise">
+          Promise
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#guarantee">
+          Guarantee
         </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
           Testimonials
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Button className="text-sm" href={constants.courseLink}>Buy Now</Button>
+        <Button href={constants.courseLink} buttonColor='bg-primary-lighter'>Free Starter</Button>
       </div>
     </div>
   </header>

@@ -19,6 +19,7 @@ const Button = ({ children, className = '', size, href, buttonColor }) => {
         rounded
         text-white
         mr-4
+        text-center
     `}
     >
       {children}
