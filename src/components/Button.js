@@ -15,7 +15,6 @@ const Button = ({ children, className = '', size, href, buttonColor }) => {
         ${sizes[size] || sizes.default}
         ${className}
         ${buttonColor || 'bg-primary'}
-        hover:bg-primary-darker
         rounded
         text-white
         mr-4
