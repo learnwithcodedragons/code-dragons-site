@@ -6,6 +6,7 @@ This is the repository for the [CodeDragons.co.uk](https://codedragons.co.uk) si
 
 ### Prerequisite
 - [Node](https://nodejs.org/en/download/) must be installed
+- Install Gatsby CLI `npm install -g gatsby-cli`
 
 ### Build and run
 - `npm i`
