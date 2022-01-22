@@ -1,25 +1,18 @@
-# Gatsby Lander
+# CodeDragons Site
 
-This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
+This is the repository for the [CodeDragons.co.uk](https://codedragons.co.uk) site.
 
-Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+## Local Development
 
-## Preview
+### Prerequisite
+- [Node](https://nodejs.org/en/download/) must be installed
 
-https://gatsby-lander.surge.sh/
+### Build and run
+- `npm i`
+- `gatsby develop`
 
-## Installation
+## Production Deployment
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
-
-Run `gatsby develop` in the terminal to start the dev site.
-
-## Notes
-
-These libraries do not yet fully support the upgrade to Gatsby 3.x:
-* gatsby-plugin-react-helmet
-* gatsby-plugin-emotion
-* gatsby-plugin-postcss
-* gatsby-theme-codebushi
+The site is deployed using a GitHub Action the following secrets must be added to the GitHub project:
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
