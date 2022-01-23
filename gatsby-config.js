@@ -12,5 +12,11 @@ module.exports = {
         bucketName: "codedragons-site-bucket",
       },
     },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: "G-HYMEN265KGD",
+        },
+    },
   ]
 };
